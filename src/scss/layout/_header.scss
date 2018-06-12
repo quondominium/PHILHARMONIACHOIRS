@@ -1,0 +1,14 @@
+.header {
+	padding-top: 13px;
+	padding-right: 63px;
+	padding-left: 62px;
+		
+	.container {
+		display: flex;
+		flex-flow: row wrap;
+		justify-content: space-between;		
+	    margin: 0 auto;
+	    padding: 0 10px;
+	    max-width: 1920px;
+	}
+}

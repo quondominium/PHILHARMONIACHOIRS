@@ -1,0 +1,52 @@
+@font-face {
+  font-family: 'HelveticaNeue-Condensed';
+  src: url("../fonts/HelveticaNeue-Condensed.otf") format("opentype");
+}
+@font-face {
+  font-family: 'HelveticaNeue-BoldCondensed';
+  src: url("../fonts/HelveticaNeueLTW1G-BdCn.otf") format("opentype");
+}
+@font-face {
+  font-family: 'MinionPro';
+  src: url("../fonts/MinionPro-Regular.otf") format("opentype");
+}
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?jokro0');
+  src:  url('../fonts/icomoon.eot?jokro0#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?jokro0') format('truetype'),
+    url('../fonts/icomoon.woff?jokro0') format('woff'),
+    url('../fonts/icomoon.svg?jokro0#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+.icon-facebook:before {
+  content: "\e900";
+}
+.icon-instagram:before {
+  content: "\e901";
+}
+.icon-search:before {
+  content: "\e902";
+}
+.icon-twitter:before {
+  content: "\e903";
+}
+.icon-youtube:before {
+  content: "\e904";
+}

@@ -1,0 +1,13 @@
+.links {
+    @extend %listreset;
+
+        li {
+            display: inline-block;
+            line-height: 1;
+            margin-bottom: 0;
+
+            i {
+            	font-size: 21px;
+            }
+        }
+}

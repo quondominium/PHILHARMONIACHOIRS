@@ -1,0 +1,12 @@
+.announce-side-nav {
+	flex: 0 1 41%;
+	display: flex;
+    flex-flow: row no-wrap;
+    justify-content: space-between;
+}  
+.announce {
+	max-width: 428px;
+	img {
+		vertical-align: top;
+	}
+}

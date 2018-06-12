@@ -1,0 +1,26 @@
+.side-nav {
+	@extend %listreset;
+	text-align: right;
+	font-size: 28px;
+	font-family: map-get($base, 'base-font-sans-serif-bold');
+	.item {
+		line-height: 1;
+		margin-bottom: 33px;
+		color: map-get($color, 'fourth-base');
+
+		.link {
+		display: block;
+		text-indent: 70%;
+		}		
+		&:last-child {
+			margin-bottom: 0;
+		}
+		a {
+			color: map-get($color, 'fourth-base');
+		}
+		a.attention {
+		  color: map-get($color, 'fifth-base');
+		}
+	}
+
+}

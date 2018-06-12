@@ -1,0 +1,21 @@
+.main-nav {
+    @extend %listreset;
+    margin: 0 auto;
+    font-family: map-get($base, 'base-font-sans-serif-bold');
+
+        li {
+            display: inline-block;
+            line-height: 1;
+            font-size: 25px;
+            padding-top: 123px;
+            padding-bottom: 39px;
+            margin-right: 66px;
+
+            &:last-child {
+			margin-right: 0;
+		}
+		a {
+			color: map-get($color, 'sixth-base');
+		}
+        }
+}
